@@ -1,0 +1,20 @@
+{
+    "name": "unclexo/dig",
+    "description": "A simple PHP tool for newbies and foreigners to dig into variables, functions, methods, classes, objects, etc.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xo\\Dig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "unclexo",
+            "email": "itsunclexo@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^5.4"
+    }
+}
